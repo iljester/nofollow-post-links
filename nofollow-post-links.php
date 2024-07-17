@@ -2,13 +2,15 @@
 
 /**
  * @link              https://https://www.iljester.com
- * @since 			  1.0
+ * @since 			  1.0.0
  * @package           Nofollow Post Links
  *
  * Plugin Name:       Nofollow Post Links
  * Plugin URI:        https://github.com/iljester/nofollow-post-links
  * Description:       Nofollow manager for your contents
  * Version:           1.0.0
+ * Requires CP:       1.0
+ * Requires PHP:      7.4
  * Author:            Il Jester
  * Author URI:        https://https://www.iljester.com/
  * License:           GPL-2.0+
