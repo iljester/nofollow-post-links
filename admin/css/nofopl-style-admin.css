@@ -1,0 +1,147 @@
+/**
+ * Admin css
+ * @package No Follow Post Links
+ * @subpackage nofopl-style-admin.css
+ * @since 1.0.0
+ */
+
+ /** INPUTS **/
+
+ .minifat {
+    width: 75%;
+}
+
+.nofopl-wrap input[type="text"],
+.nofopl-wrap input[type="url"],
+.nofopl-wrap input[type="email"] {
+    margin-bottom: 5px;
+}
+
+/** NAV TABS **/
+
+span.nav-tab {
+    cursor: pointer;
+}
+
+.nofopl-wrap .dashicons {
+    vertical-align: -4px;
+    padding-right: 4px;
+}
+
+/** SUBTITLE **/
+
+.nofopl-subtitle {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.nofopl-wrap p.nofopl-subtitle {
+    font-size: 15px;
+    margin: 20px 0;
+    padding: 0;
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    box-shadow: 0px 1px 0px #fff;
+}
+
+/** DESCRIPTION **/
+
+.nofopl-wrap p.nofopl-description {
+    margin-top: 0;
+    margin-bottom: 10px;
+    max-width: 80%;
+    font-size: .9em;
+    font-style: italic;
+}
+
+.nofopl-wrap label {
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: -1px;
+}
+
+/** OPTIONS DISCUSSION */
+
+.nofopl-tip-label {
+    background-color: #ffffb3;
+    padding: 10px;
+    border: 1px solid #ba7979;
+    margin: 10px 0 10px !important;
+    font-size: .9em !important;
+}
+
+.nofopl-text-green {
+    color: green;
+}
+
+.nofopl-text-red {
+    color: red;
+}
+
+.nofopl-text-orange {
+    color: orange;
+}
+
+/** Buttons **/
+
+.button-green.button-primary {
+    background-color: #008000;
+    border-color: #008000;
+}
+
+.button-green.button-primary:hover {
+    background-color: #006700;
+    border-color: #006700;
+}
+
+.button-green.button-primary:focus,
+.button-green.button-primary:active {
+    background-color:  #006700;
+    border-color:  #006700;
+    box-shadow: 0 0 0 1px #fff,0 0 0 3px  #006700;
+}
+
+.button-red.button-primary {
+    background-color: #dc0000;
+    border-color: #dc0000;
+}
+
+.button-red.button-primary:hover {
+    background-color: #d00000;
+    border-color: #d00000;
+}
+
+.button-red.button-primary:focus,
+.button-red.button-primary:active {
+    background-color: #d00000;
+    border-color: #d00000;
+    box-shadow: 0 0 0 1px #fff,0 0 0 3px #d00000;
+}
+
+.hide-button-save {
+    display: none;
+}
+
+.nofopl-message {
+    background-color: #fff07c;
+    padding: 3px 10px;
+    display: inline-block;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.nofopl-success {
+    color: green;
+}
+
+.nofopl-failed {
+    color: red;
+}
+
+.nofopl-message .dashicons {
+    vertical-align: -5px;
+}
