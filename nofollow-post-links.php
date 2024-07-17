@@ -3,11 +3,11 @@
 /**
  * @link              https://https://www.iljester.com
  * @since 			  1.0
- * @package           IlJNofollow
+ * @package           Nofollow Post Links
  *
- * Plugin Name:       No Follow Post Links
- * Plugin URI:        https://www.iljester.com/portfolio/iljnofollow
- * Description:       Add selective nofollow in your post
+ * Plugin Name:       Nofollow Post Links
+ * Plugin URI:        https://github.com/iljester/nofollow-post-links
+ * Description:       Nofollow manager for your contents
  * Version:           1.0.0
  * Author:            Il Jester
  * Author URI:        https://https://www.iljester.com/

@@ -1,7 +1,7 @@
 <?php
 /**
  * NofoplSettings Class
- * @package No Follow Post Links
+ * @package Nofollow Post Links
  * @subpackage admin/settings.php
  * @since 1.0.0
  */

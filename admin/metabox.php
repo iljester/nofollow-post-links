@@ -1,7 +1,7 @@
 <?php
 /**
  * NofoplMetabox Class
- * @package No Follow Post Links
+ * @package Nofollow Post Links
  * @subpackage admin/metabox.php
  * @since 1.0.0
  */

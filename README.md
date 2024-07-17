@@ -1,8 +1,8 @@
-# No Follow Post Links
+# Nofollow Post Links
 
 ## Description
 
-No Follow Post Links (NoFoPL) is a plugin that allows you to manage the nofollow attribute of post links. You can manage them granularly, within the single post, or you can assign nofollow attribute to all links, or again, you can remove the attribute for all links.
+Nofollow Post Links is a plugin that allows you to manage the nofollow attribute of post links. You can manage them granularly, within the single post, or you can assign nofollow attribute to all links, or again, you can remove the attribute for all links.
 
 ## Compatibility and support
 
@@ -16,7 +16,7 @@ This plugin was designed specifically for ClassicPress. However, it may also be 
 
 ## Thirdy part assets
 
-NoFoPL uses:
+Nofollow Post Links uses:
 - Update client class from plugin (Update Manager)[https://software.gieffeedizioni.it/plugin/update-manager/], released under GPLv2 license. Author Simone Fioravanti.
 - github workflows by Simone Fioravanti https://github.com/xxsimoxx
 

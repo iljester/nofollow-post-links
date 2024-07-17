@@ -1,7 +1,7 @@
 <?php
 /**
  * NofoplManageNoFollow Class
- * @package No Follow Post Links
+ * @package Nofollow Post Links
  * @subpackage inc/nofollow.php
  * @since 1.0.0
  */

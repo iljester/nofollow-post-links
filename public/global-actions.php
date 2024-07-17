@@ -1,7 +1,7 @@
 <?php
 /**
  * NofoplGlobalActions Class
- * @package No Follow Post Links
+ * @package Nofollow Post Links
  * @subpackage public/global-actions.php
  * @since 1.0.0
  */

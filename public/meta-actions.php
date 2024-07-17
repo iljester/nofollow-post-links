@@ -1,7 +1,7 @@
 <?php 
 /**
  * NofoplMetaActions Class
- * @package No Follow Post Links
+ * @package Nofollow Post Links
  * @subpackage public/meta-actions.php
  * @since 1.0.0
  */

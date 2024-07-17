@@ -1,7 +1,7 @@
 <?php
 /**
  * Init class
- * @package No Follow Post Links
+ * @package Nofollow Post Links
  * @subpackage inc/init.php
  * @since 1.0.0
  */

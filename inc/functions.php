@@ -1,7 +1,7 @@
 <?php 
 /**
  * Functions
- * @package No Follow Post Links
+ * @package Nofollow Post Links
  * @subpackage inc/functions.php
  * @since 1.0.0
  */

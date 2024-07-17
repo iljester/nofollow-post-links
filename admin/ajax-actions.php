@@ -1,7 +1,7 @@
 <?php
 /**
  * NofoplAjaxActions class
- * @package No Follow Post Links
+ * @package Nofollow Post Links
  * @subpackage admin/ajax-actions.php
  * @since 1.0.0
  */

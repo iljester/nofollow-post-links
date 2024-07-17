@@ -1,7 +1,7 @@
 <?php
 /**
  * Unistall Plugin
- * @package No Follow Post Links
+ * @package Nofollow Post Links
  * @subpackage uninstall.php
  * @since 1.0.0
  */

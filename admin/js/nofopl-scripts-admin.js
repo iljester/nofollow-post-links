@@ -1,6 +1,6 @@
 /**
  * Admin Js
- * @package No Follow Post Links
+ * @package Nofollow Post Links
  * @subpackage nofopl-scripts-admin.js
  * @since 1.0.0
  */
