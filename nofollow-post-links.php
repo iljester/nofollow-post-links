@@ -8,7 +8,7 @@
  * Plugin Name:       Nofollow Post Links
  * Plugin URI:        https://github.com/iljester/nofollow-post-links
  * Description:       Nofollow manager for your contents
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires CP:       1.0
  * Requires PHP:      7.4
  * Author:            Il Jester

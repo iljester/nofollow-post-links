@@ -121,7 +121,7 @@ class NofoplManageNoFollow {
      */
     public static function addNoFollowLink( $link ) {
         
-        if( stripos( $link, 'rel') !== false ) {
+        if( stripos( $link, ' rel=') !== false ) {
             preg_match('/\s*rel="(.*?)"\s*/', $link, $match);
             $attrs = explode( ' ', trim($match[1]) );
             if( count($attrs) > 0 ) {
@@ -160,7 +160,7 @@ class NofoplManageNoFollow {
         }
         
         foreach( $matches[0] as $m ) {
-            if( stripos( $m, 'rel') !== false ) {
+            if( stripos( $m, ' rel=') !== false ) {
                 preg_match('/\s*rel="(.*?)"\s*/', $m, $match);
                 $attrs = explode( ' ', trim($match[1]) );
                 if( count($attrs) > 0 ) {
@@ -188,7 +188,7 @@ class NofoplManageNoFollow {
      * @return bool
      */
     public static function linkHasNofollow( $link ) {
-        if( stripos( $link, 'rel') !== false ) {
+        if( stripos( $link, ' rel=') !== false ) {
             preg_match('/rel="(.*?)"/', $link, $match );
             if( stripos( $match[1], 'nofollow' ) !== false ) {
                 return true;
@@ -377,7 +377,7 @@ class NofoplManageNoFollow {
      */
     public static function domainsList( $domains ) {
         $pre_domains_list = preg_split("/\n|\r\n/", $domains );
-        $domains_list = array_map( ['self', 'removeHostPrefix'], $pre_domains_list );
+        $domains_list = array_map( ['NofoplManageNoFollow', 'removeHostPrefix'], $pre_domains_list );
         return $domains_list;
     }
 
